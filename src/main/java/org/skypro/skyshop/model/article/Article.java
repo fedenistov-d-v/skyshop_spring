@@ -43,12 +43,9 @@ public final class Article implements Searchable {
         return headline;
     }
 
-    @JsonIgnore
     public UUID getId() {
         return id;
     }
-
-    ;
 
     @Override
     public String toString() {
