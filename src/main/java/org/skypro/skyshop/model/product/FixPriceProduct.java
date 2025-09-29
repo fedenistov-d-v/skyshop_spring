@@ -25,5 +25,4 @@ public class FixPriceProduct extends Product {
         return String.format("%s: Фиксированая цена %d",
                 name, FIX_PRICE);
     }
-
 }

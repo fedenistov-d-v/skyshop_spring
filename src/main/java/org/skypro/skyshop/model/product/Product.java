@@ -44,7 +44,6 @@ public abstract class Product implements Searchable {
 
     public abstract boolean isSpecial();
 
-    @JsonIgnore
     public UUID getId() {
         return id;
     }
@@ -65,5 +64,4 @@ public abstract class Product implements Searchable {
     public int hashCode() {
         return Objects.hash(name);
     }
-
 }
